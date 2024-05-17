@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Internal CSS for My Profile Page -->
+    <style>
+        /* Internal CSS for My Profile Page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-info {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    </style>
+    <!-- External CSS for Gallery Page -->
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <!-- My Profile Page -->
+    <div class="profile-container">
+        <img src="johnr.jpg" alt="Profile Picture" class="profile-picture">
+        <div class="profile-info">
+            <h1>John Doe</h1>
+            <p>Email: john.doe@example.com</p>
+            <p>Location: New York City</p>
+            <!-- Add more profile information -->
+        </div>
+    </div>
+
+    <!-- Gallery Page -->
+    <div class="gallery-container">
+        <!-- Images styled using external CSS -->
+        <img src="chicken.jpg" alt="Image 1">
+        <img src="kinilaw.jpg" alt="Image 2">
+		<img src="chicken.jpg" alt="Image 3">
+        <img src="kinilaw.jpg" alt="Image 4">
+        <img src="chicken.jpg" alt="Image 5">
+        <img src="kinilaw.jpg" alt="Image 6">
+    </div>
+
+    <!-- Infographics (Inline CSS) -->
+    <div class="infographic" style="margin: 20px auto; max-width: 600px;">
+        <h2 style="color: #333;">Food Infographics</h2>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+            <div style="flex: 1; margin-right: 10px;">
+                <img src="chicken.jpg" alt="Food Image 1" style="max-width: 100%; border-radius: 5px;">
+                <p style="font-size: 16px; margin-top: 10px;">Description of food image 1.</p>
+            </div>
+            <div style="flex: 1; margin-left: 10px;">
+                <img src="kinilaw.jpg" alt="Food Image 2" style="max-width: 100%; border-radius: 5px;">
+                <p style="font-size: 16px; margin-top: 10px;">Description of food image 2.</p>
+            </div>
+        </div>
+        <!-- Add more images and text -->
+    </div>
+</body>
+</html>
